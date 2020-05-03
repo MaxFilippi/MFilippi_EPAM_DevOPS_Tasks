@@ -1,0 +1,11 @@
+--2020-05-03 20:37:36--  http://www.google.com/
+Resolving www.google.com (www.google.com)... 216.58.215.68, 2a00:1450:401b:806::2004
+Connecting to www.google.com (www.google.com)|216.58.215.68|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html’
+
+     0K .......... ....                                         605K=0.02s
+
+2020-05-03 20:37:36 (605 KB/s) - ‘index.html’ saved [14777]
+
