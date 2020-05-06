@@ -10,14 +10,15 @@ while :
  actual=`cksum /etc/passwd | awk {'print $1'}`
  #if  difference is  presend -  add to  file
  if [ $old != $actual ]
- then
+  then
    date >> /tmp/pwd.changes
    echo "----" >> /tmp/pwd.changes
    diff  /tmp/old.passwd /etc/passwd |  grep ":"| awk -F: {'print  $1 " " $3 '} >> /tmp/pwd.changes 
    echo "----" >> /tmp/pwd.changes
+   #update old pwd file for  next  checking
+   cat /etc/passwd > /tmp/old.passwd
  fi
- #update old pwd file for  next  checking
- cat /etc/passwd > /tmp/old.passwd
+ 
  #wait 1 min
  sleep 60
 done
