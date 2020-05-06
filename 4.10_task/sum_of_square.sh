@@ -1,13 +1,16 @@
 #!/bin/bash
 
+n=1
+result=0
 
-#calculate user process number with header
-prn=`ps -U $USER | wc -l`
-#remove ps header from  result
-prn=$((prn-1))
-
-while :
+echo -n SUM of " " 
+for i  in  $*
  do
-  echo "Number of process for user: $USER at "`date +"%T %D"` "is" $prn  >> ~/tmp/process_info.txt
-  sleep 60
+  echo -n $i\^2 " "   
+  n=$((n+1))
+  result=`echo "$result + $i^2" | bc` 
  done
+
+echo  -n  = $result
+
+echo
