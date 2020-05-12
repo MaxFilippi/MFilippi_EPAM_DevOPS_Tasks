@@ -1,0 +1,5 @@
+3264845745 116 mf/factorial.cpp
+4230845612 42 mf/functions.h
+3727486368 115 mf/hello.cpp
+4200463489 193 mf/main.cpp
+1773435710 330 mf/makefile
