@@ -1,0 +1,141 @@
+---------------
+current vmstat info:
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu----- -----timestamp-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st                EEST
+ 0  0  32512  37316  40928 194992    0    2    33     6  519  641  9  4 86  1  0 2020-05-12 18:26:01
+ 0  0  32512  37316  40928 194992    0    0     0     0  514  568  7  1 92  0  0 2020-05-12 18:26:04
+ 0  0  32512  37316  40936 194992    0    0     0    12  475  499  5  0 95  0  0 2020-05-12 18:26:07
+ 0  0  32512  37348  40936 194992    0    0     0    11  478  507  2  1 97  0  0 2020-05-12 18:26:10
+ 0  0  32512  37348  40936 194992    0    0     0     0  441  430  2  0 98  0  0 2020-05-12 18:26:13
+ 0  0  32512  37348  40944 194992    0    0     0     4  505  550  5  1 94  1  0 2020-05-12 18:26:16
+ 0  0  32512  37348  40944 194992    0    0     0     0  498  535  6  1 93  0  0 2020-05-12 18:26:19
+ 0  0  32512  37356  40952 194992    0    0     0     4  537  628 10  1 88  0  0 2020-05-12 18:26:22
+ 1  0  32512  37356  40952 194992    0    0     0     0  450  436  2  0 98  0  0 2020-05-12 18:26:25
+ 1  1  32512  36688  40960 195120    5    0    33     4  498  530  4  3 93  0  0 2020-05-12 18:26:28
+---------------
+
+---------------
+05/12/20 18:26:28
+current 15m Load avarage : 0.26
+---------------
+
+---------------
+05/12/20 18:26:28
+current Swap pages info :
+---------------
+
+---------------
+05/12/20 18:26:28
+current disk partition info :
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        30G  4.6G   24G  17% /
+devtmpfs        236M     0  236M   0% /dev
+tmpfs           241M     0  241M   0% /dev/shm
+tmpfs           241M  7.1M  233M   3% /run
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           241M     0  241M   0% /sys/fs/cgroup
+/dev/mmcblk0p1  253M   53M  200M  21% /boot
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/3361b60d0401353cbe166cb5b1a4c88ab2933a7c870e0f6c6130b2909f9c9c67/merged
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/027d1213c3ce067c46598cc015295a126b14ba0fbeebe78543792c0d957cfffc/merged
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/c3574af347dd0a7b063f1ebbf38d36c736d51567e32a3be1ce2dc4cd02da19de/merged
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/2c8056273778f0da845e7cf776f9846d06f8f70aad8f24d2805b692039483294/merged
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/2e1b1003cb63a4f86cdfb680df40d1d1aac68da055562e86b40ae7604e39dbfb/merged
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/09708e4a49db0a1d55426d8db9422168e832b83031f6e88295cd1796cd274bf2/merged
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/247e44e45ac62deb5d60cfa03b82c1c11a9000995bcfdbd85f8ad81067d610ae/merged
+tmpfs            48M     0   48M   0% /run/user/0
+---------------
+
+---------------
+current vmstat info:
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu----- -----timestamp-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st                EEST
+ 0  0  32512  37100  41016 195228    0    2    33     6  519  641  9  4 86  1  0 2020-05-12 18:28:01
+ 0  0  32512  36960  41024 195232    0    0     0    15  537  559  7 25 68  0  0 2020-05-12 18:28:04
+ 0  0  32512  36960  41024 195232    0    0     0     0  507  495  7 25 68  0  0 2020-05-12 18:28:07
+ 0  0  32512  36960  41032 195232    0    0     0     4  478  450  5 21 75  0  0 2020-05-12 18:28:10
+ 0  0  32512  36960  41032 195232    0    0     0     0  494  481  8 18 74  0  0 2020-05-12 18:28:13
+ 0  0  32512  36960  41040 195232    0    0     0    17  488  470 13 15 72  0  0 2020-05-12 18:28:16
+ 1  0  32512  36960  41040 195232    0    0     0     0  505  480 12 20 68  0  0 2020-05-12 18:28:19
+ 0  0  32512  36960  41048 195232    0    0     0     4  535  574 12 24 63  0  0 2020-05-12 18:28:22
+ 0  0  32512  36960  41048 195232    0    0     0     0  492  478 14 16 69  0  0 2020-05-12 18:28:25
+ 0  0  32512  36960  41056 195232    0    0     0     4  506  504 12 15 72  0  0 2020-05-12 18:28:28
+---------------
+
+---------------
+05/12/20 18:28:28
+current 15m Load avarage : 0.31
+---------------
+
+---------------
+05/12/20 18:28:29
+current Swap pages info :
+---------------
+
+---------------
+05/12/20 18:28:29
+current disk partition info :
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        30G  4.6G   24G  17% /
+devtmpfs        236M     0  236M   0% /dev
+tmpfs           241M     0  241M   0% /dev/shm
+tmpfs           241M  7.1M  233M   3% /run
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           241M     0  241M   0% /sys/fs/cgroup
+/dev/mmcblk0p1  253M   53M  200M  21% /boot
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/3361b60d0401353cbe166cb5b1a4c88ab2933a7c870e0f6c6130b2909f9c9c67/merged
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/027d1213c3ce067c46598cc015295a126b14ba0fbeebe78543792c0d957cfffc/merged
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/c3574af347dd0a7b063f1ebbf38d36c736d51567e32a3be1ce2dc4cd02da19de/merged
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/2c8056273778f0da845e7cf776f9846d06f8f70aad8f24d2805b692039483294/merged
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/2e1b1003cb63a4f86cdfb680df40d1d1aac68da055562e86b40ae7604e39dbfb/merged
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/09708e4a49db0a1d55426d8db9422168e832b83031f6e88295cd1796cd274bf2/merged
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/247e44e45ac62deb5d60cfa03b82c1c11a9000995bcfdbd85f8ad81067d610ae/merged
+tmpfs            48M     0   48M   0% /run/user/0
+---------------
+
+---------------
+current vmstat info:
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu----- -----timestamp-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st                EEST
+ 1  0  32512  36120  41080 195260    0    2    33     6  518  640  9  4 86  1  0 2020-05-12 18:30:01
+ 0  0  32512  36292  41088 195260    0    0     0    17  558  660  7  2 90  1  0 2020-05-12 18:30:04
+ 0  0  32512  36292  41088 195260    0    0     0     0  486  517  5  2 93  0  0 2020-05-12 18:30:07
+ 0  0  32512  36292  41088 195268    0    0     0     0  931 2549 49 12 39  0  0 2020-05-12 18:30:10
+ 0  0  32512  36292  41096 195268    0    0     0     5  459  459  3  1 96  0  0 2020-05-12 18:30:13
+ 0  0  32512  36292  41096 195268    0    0     0     0  511  592  3  4 93  0  0 2020-05-12 18:30:16
+ 0  0  32512  36292  41104 195268    0    0     0     4  486  506  2  1 97  0  0 2020-05-12 18:30:19
+ 0  0  32512  36292  41112 195268    0    0     0     4  484  528  9  0 90  0  0 2020-05-12 18:30:22
+ 0  0  32512  36292  41112 195272    0    0     0     0  619  988 15  2 83  0  0 2020-05-12 18:30:25
+ 0  0  32512  36292  41112 195272    0    0     0    15  503  552  2  0 98  0  0 2020-05-12 18:30:28
+---------------
+
+---------------
+05/12/20 18:30:28
+current 15m Load avarage : 0.29
+---------------
+
+---------------
+05/12/20 18:30:28
+current Swap pages info :
+---------------
+
+---------------
+05/12/20 18:30:28
+current disk partition info :
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        30G  4.6G   24G  17% /
+devtmpfs        236M     0  236M   0% /dev
+tmpfs           241M     0  241M   0% /dev/shm
+tmpfs           241M  7.1M  233M   3% /run
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           241M     0  241M   0% /sys/fs/cgroup
+/dev/mmcblk0p1  253M   53M  200M  21% /boot
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/3361b60d0401353cbe166cb5b1a4c88ab2933a7c870e0f6c6130b2909f9c9c67/merged
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/027d1213c3ce067c46598cc015295a126b14ba0fbeebe78543792c0d957cfffc/merged
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/c3574af347dd0a7b063f1ebbf38d36c736d51567e32a3be1ce2dc4cd02da19de/merged
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/2c8056273778f0da845e7cf776f9846d06f8f70aad8f24d2805b692039483294/merged
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/2e1b1003cb63a4f86cdfb680df40d1d1aac68da055562e86b40ae7604e39dbfb/merged
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/09708e4a49db0a1d55426d8db9422168e832b83031f6e88295cd1796cd274bf2/merged
+overlay          30G  4.6G   24G  17% /var/lib/docker/overlay2/247e44e45ac62deb5d60cfa03b82c1c11a9000995bcfdbd85f8ad81067d610ae/merged
+tmpfs            48M     0   48M   0% /run/user/0
+---------------
+
